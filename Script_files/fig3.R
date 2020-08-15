@@ -1,11 +1,13 @@
 source("./Script_files/functions.R")
 source("./Script_files/loadData.R")
 
-
+#isoprene data
 isoprene_dt <- data.table(
   condition = c("Baseline", "Relaxed", "Stressed"),
   isoprene_val = c(1.87, 5.85, 6.39),
   isoprene_std = c(0.64, 0.47, 0.25))
+
+
 
 condition_dt <- data.table(
   condition = c("Baseline","Stressed", "Flush", "Relaxed", "Tracer decay"),
