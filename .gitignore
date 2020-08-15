@@ -1,3 +1,5 @@
+#Generic gitinore file
+#from Github
 # History files
 .Rhistory
 .Rapp.history

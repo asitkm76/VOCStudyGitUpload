@@ -8,7 +8,7 @@ isoprene_dt <- data.table(
   isoprene_std = c(0.64, 0.47, 0.25))
 
 
-
+#Intervention or control
 condition_dt <- data.table(
   condition = c("Baseline","Stressed", "Flush", "Relaxed", "Tracer decay"),
   start = ymd_hm(c("2019-09-10 11:25","2019-09-10 14:18", "2019-09-10 15:05", "2019-09-10 15:24", "2019-09-10 16:11")),
